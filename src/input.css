@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background-color: #F08080;
+    background-attachment: fixed;
+    font-size: 16px;
+    color: #fff;
+}
+/* interaccion con el nav bar mobile */
+.nav-mobile{
+    
+    visibility: hidden;
+    transition: all .2s;
+}
+.nav-mobile.active{
+    
+    visibility: visible;
+    transition: all .2s;
+}
+
+
+.z-index-menor{
+    z-index: 500;
+}
+.z-index-sup{
+    z-index: 900;
+}
+
+form >*{
+    margin: 1rem .5rem;
+    border-radius: 1rem;
+    box-shadow: 0px 6px 7px #2f2e2e;
+    color: #2f2e2e;
+    font-size: 1.5rem;
+}
+input[type="email"]{
+    min-height: 3rem;
+    padding-left: 1rem;
+}
+
+
+textarea{
+    resize: vertical;
+    min-height: 10rem;
+    width: auto;
+    padding-left: 1rem;
+}
+p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+h3{
+
+    text-shadow: 2px 4px 10px #ff6868;
+}
+b{
+  
+    text-shadow: 2px 4px 10px #ff6868;
+}
+.shadow-tech{
+    box-shadow: 0px 6px 7px #2f2e2e;
+}
+.box-shadow-tech{
+    box-shadow: -1px 6px 14px rgb(40, 38, 38);
+}
+.shadow-tech-desk{
+    box-shadow: 0px 6px 7px #2f2e2e;
+}
+.footer-gradient{
+    background-image: linear-gradient(135deg, rgb(77, 77, 173) 26%, rgba(97, 184, 255, 1) 74%);
+}
+.box-shadow-aboutme{
+    box-shadow: -1px 6px 14px rgb(40, 38, 38);
+}
+
+
+
+@media screen and (min-width:800px ){
+
+    .shadow-tech:hover{
+        transition: .5s ease-in-out;
+        box-shadow:0px 19px 26px #ffffff;
+    }
+    .shadow-tech:not(:hover){
+        transition: .5s ease-in-out;
+        
+    }
+}
+
+
+
+
+.backGradient{
+    background-image: radial-gradient(circle, rgb(0 106 211) 72%, rgba(53, 122, 192, 0.28) 90%);
+
+}
+.backGradient2{
+    background-image: radial-gradient(circle, rgb(24 40 159) 72%, rgba(53, 122, 192, 0.28) 90%);
+    
+}
