@@ -1308,6 +1308,14 @@ b{
     height: 65rem;
   }
 
+  .md\:h-\[51vh\] {
+    height: 51vh;
+  }
+
+  .md\:h-\[19vh\] {
+    height: 19vh;
+  }
+
   .md\:w-\[21rem\] {
     width: 21rem;
   }
