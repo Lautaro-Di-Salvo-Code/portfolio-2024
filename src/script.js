@@ -17,37 +17,37 @@ document.addEventListener("click" ,e =>{
 
     if(e.target.matches(".nav-link1")){
         // console.log(e.target)
-        document.querySelector(".nav-link1").classList.add("text-[#ff6868]")
-        document.querySelector(".div-nav1").classList.add("scale-125")
+        document.querySelector(".nav-link1").classList.add("text-[#282626]")
+     
     }else{
-        document.querySelector(".nav-link1").classList.remove("text-[#ff6868]")
-        document.querySelector(".div-nav1").classList.remove("scale-125")
+        document.querySelector(".nav-link1").classList.remove("text-[#282626]")
+        
     }
     if(e.target.matches(".nav-link2")){
         // console.log(e.target)
-        document.querySelector(".nav-link2").classList.add("text-[#ff6868]")
-        document.querySelector(".div-nav2").classList.add("scale-125")
+        document.querySelector(".nav-link2").classList.add("text-[#282626]")
+     
     }else{
-        document.querySelector(".nav-link2").classList.remove("text-[#ff6868]")
-        document.querySelector(".div-nav2").classList.remove("scale-125")
+        document.querySelector(".nav-link2").classList.remove("text-[#282626]")
+        
     }
     if(e.target.matches(".nav-link3")){
         // console.log(e.target)
-        document.querySelector(".nav-link3").classList.add("text-[#ff6868]")
-        document.querySelector(".div-nav3").classList.add("scale-125")
+        document.querySelector(".nav-link3").classList.add("text-[#282626]")
+     
     }else{
-        // link.classList.remove(".text-[#ff6868]") 
-        document.querySelector(".nav-link3").classList.remove("text-[#ff6868]")
-        document.querySelector(".div-nav3").classList.remove("scale-125")
+        // link.classList.remove(".text-[#282626]") 
+        document.querySelector(".nav-link3").classList.remove("text-[#282626]")
+        
     }
     if(e.target.matches(".nav-link4")){
         // console.log(e.target)
-        document.querySelector(".nav-link4").classList.add("text-[#ff6868]")
-        document.querySelector(".div-nav4").classList.add("scale-125")
+        document.querySelector(".nav-link4").classList.add("text-[#282626]")
+     
     }else{
-        // link.classList.remove(".text-[#ff6868]") 
-        document.querySelector(".nav-link4").classList.remove("text-[#ff6868]")
-        document.querySelector(".div-nav4").classList.remove("scale-125")
+        // link.classList.remove(".text-[#282626]") 
+        document.querySelector(".nav-link4").classList.remove("text-[#282626]")
+        
     }
    
     if(e.target.matches("#boton-menu")){

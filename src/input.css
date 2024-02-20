@@ -8,7 +8,7 @@ html{
 }
 body{
     margin: 0;
-    background-color: #F08080;
+    background-color: #ffffff;
     background-attachment: fixed;
     font-size: 16px;
     color: #fff;
@@ -65,17 +65,17 @@ p{
 }
 h3{
 
-    text-shadow: 2px 4px 10px #ff6868;
+    text-shadow: 2px 4px 10px #282626;
 }
 b{
   
-    text-shadow: 2px 4px 10px #ff6868;
+    text-shadow: 2px 4px 10px #282626;
 }
 .shadow-tech{
     box-shadow: 0px 6px 7px #2f2e2e;
 }
 .box-shadow-tech{
-    box-shadow: -1px 6px 14px rgb(40, 38, 38);
+    box-shadow: -1px 6px 14px #282626;
 }
 .shadow-tech-desk{
     box-shadow: 0px 6px 7px #2f2e2e;
@@ -93,7 +93,7 @@ b{
 
     .shadow-tech:hover{
         transition: .5s ease-in-out;
-        box-shadow:0px 19px 26px #ffffff;
+        box-shadow:0px 19px 26px #949393;
     }
     .shadow-tech:not(:hover){
         transition: .5s ease-in-out;

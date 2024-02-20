@@ -20,7 +20,13 @@ module.exports = {
     fontSize:{
       "tamaño-letra-titulosDeSecciones": "2rem"
     },
+    textColor:{
+      "titles-section-color":"#000",
+    },
    backgroundColor:{
+    "body-bgcolor":"#fff",
+    // B5D2CB
+    "box-sections-bgcolor": "#d9d9d9",
     "color-botonesproyectos": "#4d4dad",
     "hovercolor-botonesproyectos":"#7373d7",
    },
