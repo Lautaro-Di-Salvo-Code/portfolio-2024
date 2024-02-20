@@ -64,12 +64,12 @@ p{
     margin-inline-end: 0px;
 }
 h3{
-
     text-shadow: 2px 4px 10px #282626;
 }
 b{
+    color: #ffffff;
   
-    text-shadow: 2px 4px 10px #282626;
+    text-shadow: 1px 3px 5px #282626;
 }
 .shadow-tech{
     box-shadow: 0px 6px 7px #2f2e2e;

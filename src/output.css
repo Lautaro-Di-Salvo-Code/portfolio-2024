@@ -1058,6 +1058,10 @@ video {
   font-weight: 800;
 }
 
+.font-semibold {
+  font-weight: 600;
+}
+
 .leading-8 {
   line-height: 2rem;
 }
@@ -1070,14 +1074,14 @@ video {
   letter-spacing: 5px;
 }
 
-.text-\[\#282626\] {
-  --tw-text-opacity: 1;
-  color: rgb(40 38 38 / var(--tw-text-opacity));
-}
-
 .text-\[\#000\] {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-\[\#282626\] {
+  --tw-text-opacity: 1;
+  color: rgb(40 38 38 / var(--tw-text-opacity));
 }
 
 .text-\[\#2f2e2e\] {
@@ -1184,7 +1188,8 @@ h3{
 }
 
 b{
-  text-shadow: 2px 4px 10px #282626;
+  color: #ffffff;
+  text-shadow: 1px 3px 5px #282626;
 }
 
 .shadow-tech{
