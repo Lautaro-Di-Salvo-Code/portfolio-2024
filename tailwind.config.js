@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage:{
-        "yoCodeando": "url('/assets/yoCodeando.webp')"
+        "yoCodeando": "url('/assets/fondo-back2.jpg')"
       }
     },
     maxWidth:{
