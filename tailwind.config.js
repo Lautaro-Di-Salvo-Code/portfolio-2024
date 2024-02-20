@@ -8,7 +8,7 @@ module.exports = {
       }
     },
     maxWidth:{
-      "maximoAnchosmallwide": "700px",
+      "maximoAnchosmallwide": "900px",
       "maximoAnchoNormal": "900px",
       "maximoAnchoUltrawide": "1200px",
       "maxw-img": "10rem"
@@ -20,7 +20,10 @@ module.exports = {
     fontSize:{
       "tamaño-letra-titulosDeSecciones": "2rem"
     },
-   
+   backgroundColor:{
+    "color-botonesproyectos": "#4d4dad",
+    "hovercolor-botonesproyectos":"#7373d7",
+   },
     screens:{
       // super small
       "ssm": "300px",
